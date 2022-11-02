@@ -1,0 +1,23 @@
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    padding: 14px 16px;
+    color: black
+}
+.navbar button, .navbar div:first-child {
+    float: left;
+    padding: 14px 16px;
+    display: block;
+    text-align: center;
+    border: 0
+}
+
+.navbar button {
+    font-weight: bolder;
+    text-transform: uppercase;
+    background: 0 0}
